@@ -1,0 +1,85 @@
+{
+   "brain":[
+      {
+         "triggers":[
+           "name",
+           "called",
+           "who are you"
+         ],
+         "responses":[
+            "media/audio/question1.mp3"
+         ]
+      },
+      {
+         "triggers":[
+           "choose",
+           "button",
+           "press"
+         ],
+         "responses":[
+           "media/audio/question2.mp3"
+         ]
+      },
+      {
+         "triggers":[
+           "liar",
+           "truth",
+           "who tells",
+           "teller",
+           "honest",
+           "lie"
+         ],
+         "responses":[
+           "media/audio/question3.mp3"
+         ]
+      },
+      {
+        "triggers": [
+          "hint",
+          "help",
+          "answer",
+          "give up",
+          "don't know"
+        ],
+        "responses":[
+          "media/audio/question4.mp3"
+
+        ]
+      },
+      {
+        "triggers": [
+          "life",
+          "do you even have",
+          "what does that mean"
+
+        ],
+        "responses":[
+          "media/audio/question5.mp3"
+
+        ]
+      },
+      {
+        "triggers": [
+          "the point",
+          "don't get it"
+        ],
+        "responses":[
+          "media/audio/question6.mp3"
+
+        ]
+      },
+      {
+        "triggers": [
+          "believe",
+          "belief",
+          "confused"
+        ],
+        "responses":[
+          "media/audio/question7.mp3"
+        ]
+      }
+   ],
+   "catchall":[
+     "media/audio/question4.mp3"
+   ]
+}
